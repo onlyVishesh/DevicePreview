@@ -28,7 +28,6 @@ const Landing = () => {
   const ctaRef = useRef(null);
   const [inputUrl, setInputUrl] = useState("");
   const [isValidUrl, setIsValidUrl] = useState(true);
-  const [isLoading, setIsLoading] = useState(false);
 
   // URL validation function
   const validateUrl = (url) => {
@@ -385,7 +384,7 @@ const Landing = () => {
                 size="large"
                 icon={<GithubOutlined />}
                 className="bg-white text-gray-900 border-none rounded-xl px-8 h-14 font-semibold hover:bg-gray-100 transition-colors"
-                href="https://github.com/onlyVishesh/"
+                href="https://github.com/onlyVishesh/DevicePreview"
                 target="_blank"
               >
                 View on GitHub
@@ -395,7 +394,7 @@ const Landing = () => {
                 size="large"
                 icon={<StarOutlined />}
                 className="bg-transparent text-white border-2 border-white rounded-xl px-8 h-14 font-semibold hover:bg-white hover:text-gray-900 transition-colors"
-                href="https://github.com/onlyVishesh/"
+                href="https://github.com/onlyVishesh/DevicePreview"
                 target="_blank"
               >
                 Give us a Star ⭐

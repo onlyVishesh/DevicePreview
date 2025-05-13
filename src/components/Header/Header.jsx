@@ -23,7 +23,7 @@ const Header = () => {
 
       <div className="flex items-center space-x-4">
         <Link
-          to="https://github.com/onlyVishesh"
+          to="https://github.com/onlyVishesh/DevicePreview"
           target="_blank"
           rel="noopener noreferrer"
           className={`transition-colors ${"text-gray-700 hover:text-blue-600"}`}
