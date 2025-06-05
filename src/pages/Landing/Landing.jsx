@@ -28,6 +28,7 @@ const Landing = () => {
   const ctaRef = useRef(null);
   const [inputUrl, setInputUrl] = useState("");
   const [isValidUrl, setIsValidUrl] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // URL validation function
   const validateUrl = (url) => {
