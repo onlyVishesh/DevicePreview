@@ -16,8 +16,9 @@
 DevicePreview is a comprehensive web application designed to revolutionize how developers and designers test responsive websites. Instead of manually resizing browser windows or switching between multiple devices, DevicePreview enables you to preview your website across dozens of device screens simultaneously in real-time.
 
 **Perfect for:**
+
 - 🎨 **Web Designers** testing responsive layouts
-- 💻 **Frontend Developers** debugging mobile-first designs  
+- 💻 **Frontend Developers** debugging mobile-first designs
 - 🏢 **Agencies** presenting client work across devices
 - 📱 **Mobile App Developers** testing web views
 - 🎓 **Students** learning responsive web design
@@ -33,20 +34,23 @@ Built with modern web technologies including React 18, Redux Toolkit, and Vite, 
 ## 📊 Key Benefits & Use Cases
 
 ### 🚀 **Accelerate Development Workflow**
+
 - **Time Savings**: Test multiple screen sizes simultaneously instead of manually resizing browsers
 - **Instant Feedback**: See responsive breakpoints and layout changes in real-time
 - **Comprehensive Coverage**: Preview on 50+ popular device configurations
 - **Custom Testing**: Add specific client device requirements with custom screen dimensions
 
 ### 🎯 **Professional Presentation**
-- **Client Demos**: Showcase responsive designs across all target devices during presentations  
+
+- **Client Demos**: Showcase responsive designs across all target devices during presentations
 - **Quality Assurance**: Catch responsive design issues before deployment
 - **Cross-Device Consistency**: Ensure uniform user experience across device types
 - **Modern Workflow**: Streamline responsive design testing with contemporary tools
 
 ### 🔧 **Developer Experience**
+
 - **Zero Configuration**: Start testing immediately without complex setup
-- **Local Storage**: Automatically save custom screen configurations  
+- **Local Storage**: Automatically save custom screen configurations
 - **Performance Optimized**: Smooth rendering even with multiple simultaneous previews
 - **Open Source**: Contribute features and improvements to the community
 
@@ -157,35 +161,41 @@ src/
 ### Core Technologies & Rationale
 
 **Frontend Framework**
+
 - **[React 18](https://reactjs.org/)** - Modern UI library with concurrent features and improved performance
 - **[Redux Toolkit](https://redux-toolkit.js.org/)** - Efficient state management with minimal boilerplate
 - **[React Router v6](https://reactrouter.com/)** - Declarative client-side routing with data loading
 
-**Build Tools & Performance**  
+**Build Tools & Performance**
+
 - **[Vite](https://vitejs.dev/)** - Lightning-fast build tool with native ESM support
 - **[ESLint](https://eslint.org/)** - Code quality and consistency enforcement
 - **[PostCSS](https://postcss.org/)** - CSS processing with autoprefixing
 
 **UI Framework & Styling**
+
 - **[Ant Design](https://ant.design/)** - Professional React component library
-- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid UI development  
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for rapid UI development
 - **[GSAP](https://greensock.com/gsap/)** - High-performance animation library
 
 ### Architecture Patterns
 
 **Component Design**
+
 - Functional components with React Hooks
 - Prop validation with PropTypes
 - Separation of concerns (presentation vs. container components)
 - Reusable component library structure
 
 **State Management**
+
 - Redux Toolkit for global state
-- Local state for component-specific data  
+- Local state for component-specific data
 - Selector patterns for derived state
 - Normalized state structure for scalability
 
 **Performance Optimizations**
+
 - Code splitting with React.lazy
 - Memoization with useMemo and useCallback
 - Virtual scrolling for large device lists
@@ -343,6 +353,7 @@ New to the project? Look for issues labeled:
 ### Common Issues
 
 **Q: The application won't start / shows dependency errors**
+
 ```bash
 # Clear node modules and reinstall
 rm -rf node_modules package-lock.json
@@ -351,16 +362,19 @@ npm run dev
 ```
 
 **Q: Website preview shows security/CORS errors**
+
 - Some websites block iframe embedding for security reasons
 - Try with `http://` instead of `https://` for local development sites
 - Use developer tools to check for specific error messages
 
 **Q: Custom screen sizes aren't saving**
+
 - Ensure your browser allows localStorage
 - Check browser's private/incognito mode settings
 - Clear browser data and try again
 
 **Q: Performance issues with multiple device previews**
+
 - Reduce number of active device previews
 - Close unnecessary browser tabs
 - Ensure adequate system memory (4GB+ recommended)
@@ -368,11 +382,11 @@ npm run dev
 ### Browser Compatibility
 
 | Browser | Minimum Version | Recommended |
-|---------|----------------|-------------|
-| Chrome | 90+ | Latest |
-| Firefox | 88+ | Latest |
-| Safari | 14+ | Latest |
-| Edge | 90+ | Latest |
+| ------- | --------------- | ----------- |
+| Chrome  | 90+             | Latest      |
+| Firefox | 88+             | Latest      |
+| Safari  | 14+             | Latest      |
+| Edge    | 90+             | Latest      |
 
 ### System Performance Tips
 
@@ -393,7 +407,7 @@ npm run dev
 ### Stay Updated
 
 - ⭐ **Star the Repository** to get notified of major updates
-- 👀 **Watch Releases** for new version notifications  
+- 👀 **Watch Releases** for new version notifications
 - 🐦 **Follow [@onlyVishesh](https://github.com/onlyVishesh)** for development updates
 
 ## 🗺️ Roadmap
@@ -426,7 +440,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Thanks to all contributors who help make this project better
 - Special thanks to the open-source community
 
-
 ## ⭐ Show Your Support
 
 If DevicePreview helps you in your development workflow, please consider:
@@ -437,7 +450,6 @@ If DevicePreview helps you in your development workflow, please consider:
 - Following [@onlyVishesh](https://github.com/onlyVishesh) for updates
 
 ---
-
 
 ## Contributing
 
