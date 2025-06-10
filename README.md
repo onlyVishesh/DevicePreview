@@ -6,7 +6,7 @@
 
 **The Ultimate Responsive Design Testing Tool for Modern Web Development**
 
-[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-blue.svg?style=for-the-badge)](https://devicepreview.dev)
+[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-blue.svg?style=for-the-badge)](<[https://devicepreview.dev](https://device-preview.vercel.app/)>)
 [![GitHub](https://img.shields.io/badge/⭐-Star%20on%20GitHub-yellow.svg?style=for-the-badge)](https://github.com/onlyVishesh/DevicePreview)
 
 </div>
@@ -31,49 +31,55 @@ Built with modern web technologies including React 18, Redux Toolkit, and Vite, 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-## 📊 Key Benefits & Use Cases
+## Demo Video
 
-### 🚀 **Accelerate Development Workflow**
+Watch the demo video to see SnapStyle in action:
+
+https://github.com/user-attachments/assets/ad22c213-1a70-4802-9454-4dbb928d9e98
+
+## Key Benefits & Use Cases
+
+### **Accelerate Development Workflow**
 
 - **Time Savings**: Test multiple screen sizes simultaneously instead of manually resizing browsers
 - **Instant Feedback**: See responsive breakpoints and layout changes in real-time
 - **Comprehensive Coverage**: Preview on 50+ popular device configurations
 - **Custom Testing**: Add specific client device requirements with custom screen dimensions
 
-### 🎯 **Professional Presentation**
+### **Professional Presentation**
 
 - **Client Demos**: Showcase responsive designs across all target devices during presentations
 - **Quality Assurance**: Catch responsive design issues before deployment
 - **Cross-Device Consistency**: Ensure uniform user experience across device types
 - **Modern Workflow**: Streamline responsive design testing with contemporary tools
 
-### 🔧 **Developer Experience**
+### **Developer Experience**
 
 - **Zero Configuration**: Start testing immediately without complex setup
 - **Local Storage**: Automatically save custom screen configurations
 - **Performance Optimized**: Smooth rendering even with multiple simultaneous previews
 - **Open Source**: Contribute features and improvements to the community
 
-## 🌟 Feature Overview
+## Feature Overview
 
-### ✅ **Available Now**
+### **Available Now**
 
-- 📱 **Multi-Device Preview** - Test on 50+ predefined device sizes including iPhone, Android, iPad, and desktop
-- ➕ **Custom Screen Sizes** - Add your own device dimensions for specific testing requirements
-- ⚡ **Lightning Fast** - Optimized rendering with smooth performance across multiple viewports
-- 🔄 **Real-Time Updates** - Watch your responsive designs update instantly as you make changes
-- ✅ **No Sign-Up Required** - Start testing immediately without creating accounts
-- 💾 **Local Storage** - Your custom screens and preferences are saved locally
-- 🎨 **Modern UI** - Beautiful, responsive interface built with Ant Design and Tailwind CSS
-- 🌈 **Smooth Animations** - Enhanced UX with GSAP animations and transitions
+- **Multi-Device Preview** - Test on 50+ predefined device sizes including iPhone, Android, iPad, and desktop
+- **Custom Screen Sizes** - Add your own device dimensions for specific testing requirements
+- **Lightning Fast** - Optimized rendering with smooth performance across multiple viewports
+- **Real-Time Updates** - Watch your responsive designs update instantly as you make changes
+- **No Sign-Up Required** - Start testing immediately without creating accounts
+- **Local Storage** - Your custom screens and preferences are saved locally
+- **Modern UI** - Beautiful, responsive interface built with Ant Design and Tailwind CSS
+- **Smooth Animations** - Enhanced UX with GSAP animations and transitions
 
-### 🚧 **Coming Soon**
+### **Coming Soon**
 
-- 🔄 **Scroll Synchronization** - Synchronized scrolling across all device previews
-- 🖱️ **Click Synchronization** - Synchronized interactions across all viewports
-- 🧩 **Browser Extension** - One-click testing from any webpage
+- **Scroll Synchronization** - Synchronized scrolling across all device previews
+- **Click Synchronization** - Synchronized interactions across all viewports
+- **Browser Extension** - One-click testing from any webpage
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -117,7 +123,7 @@ npm run build
 npm run preview
 ```
 
-## 💻 Usage
+## Usage
 
 ### Web Application
 
@@ -132,7 +138,7 @@ npm run preview
 2. Navigate to any webpage
 3. Click the extension icon to instantly preview the current page
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 src/
@@ -156,7 +162,7 @@ src/
 └── index.css          # Global styles
 ```
 
-## 🛠️ Technical Architecture & Built With
+## Technical Architecture & Built With
 
 ### Core Technologies & Rationale
 
@@ -201,11 +207,11 @@ src/
 - Virtual scrolling for large device lists
 - Optimized re-rendering with React.memo
 
-## 🤝 Contributing
+## Contributing
 
 We love contributions! Here's how you can help make DevicePreview better:
 
-### 🐛 Bug Reports
+### Bug Reports
 
 Found a bug? Please create an issue with:
 
@@ -215,7 +221,7 @@ Found a bug? Please create an issue with:
 - Browser and OS information
 - Screenshots if applicable
 
-### 💡 Feature Requests
+### Feature Requests
 
 Have an idea? Create an issue with:
 
@@ -223,7 +229,7 @@ Have an idea? Create an issue with:
 - Use case and benefits
 - Possible implementation approach (optional)
 
-### 🔧 Code Contributions
+### Code Contributions
 
 #### Getting Started
 
@@ -340,7 +346,7 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/) speci
 - `test:` - Adding or updating tests
 - `chore:` - Maintenance tasks
 
-### 📋 Good First Issues
+### Good First Issues
 
 New to the project? Look for issues labeled:
 
@@ -348,7 +354,7 @@ New to the project? Look for issues labeled:
 - `help-wanted` - Need community help
 - `documentation` - Improve docs and guides
 
-## 🔧 Troubleshooting & FAQ
+## Troubleshooting & FAQ
 
 ### Common Issues
 
@@ -395,45 +401,38 @@ npm run dev
 - **Display**: 1920x1080+ resolution for best layout visibility
 - **Network**: Stable internet connection for external website testing
 
-## 🤝 Community & Support
+## Community & Support
 
 ### Getting Help
 
-- 📖 **Documentation**: Check this README for comprehensive guides
-- 🐛 **Bug Reports**: [Create an issue](https://github.com/onlyVishesh/DevicePreview/issues) with detailed information
-- 💡 **Feature Requests**: [Submit suggestions](https://github.com/onlyVishesh/DevicePreview/issues) for new functionality
-- 💬 **Discussions**: Join community discussions in GitHub Discussions
+- **Documentation**: Check this README for comprehensive guides
+- **Bug Reports**: [Create an issue](https://github.com/onlyVishesh/DevicePreview/issues) with detailed information
+- **Feature Requests**: [Submit suggestions](https://github.com/onlyVishesh/DevicePreview/issues) for new functionality
+- **Discussions**: Join community discussions in GitHub Discussions
 
 ### Stay Updated
 
-- ⭐ **Star the Repository** to get notified of major updates
-- 👀 **Watch Releases** for new version notifications
-- 🐦 **Follow [@onlyVishesh](https://github.com/onlyVishesh)** for development updates
+- **Star the Repository** to get notified of major updates
+- **Watch Releases** for new version notifications
+- **Follow [@onlyVishesh](https://www.linkedin.com/in/onlyvishesh14)** for development updates
 
-## 🗺️ Roadmap
+## Roadmap
 
 ### Version 2.0 Planned Features
 
-- 🔄 **Scroll & Click Synchronization** - Unified interaction across all previews
-- 🧩 **Browser Extension** - One-click testing from any webpage
-- 📊 **Performance Metrics** - Lighthouse scores for each device
-- 🎨 **Screenshot Tools** - Capture all device previews simultaneously
-- 🌐 **Multi-URL Testing** - Compare designs across different pages
-- 📱 **Device Rotation** - Portrait/landscape orientation switching
-- 🔌 **Plugin System** - Extensible architecture for custom tools
+- **Scroll & Click Synchronization** - Unified interaction across all previews
+- **Browser Extension** - One-click testing from any webpage
+- **Performance Metrics** - Lighthouse scores for each device
+- **Screenshot Tools** - Capture all device previews simultaneously
+- **Multi-URL Testing** - Compare designs across different pages
+- **Device Rotation** - Portrait/landscape orientation switching
+- **Plugin System** - Extensible architecture for custom tools
 
-### Long-term Vision
-
-- 🧪 **A/B Testing Integration** - Compare design variants across devices
-- 🔍 **Accessibility Testing** - WCAG compliance checking per device
-- 📈 **Usage Analytics** - Optional anonymous usage statistics
-- 🤝 **Team Collaboration** - Shared screen configurations and comments
-
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with ❤️ by [onlyVishesh](https://github.com/onlyVishesh)
 - Inspired by the need for better responsive design testing tools
