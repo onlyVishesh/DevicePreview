@@ -1,4 +1,5 @@
 /** Dependencies */
+import { Analytics } from "@vercel/analytics/react";
 import { useEffect } from "react";
 import { Provider } from "react-redux";
 import { Route, Routes } from "react-router-dom";
@@ -44,6 +45,7 @@ function App() {
           <Route path="/app" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Analytics />
       </div>
     </Provider>
   );
