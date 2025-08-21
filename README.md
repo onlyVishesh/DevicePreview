@@ -6,7 +6,7 @@
 
 **The Ultimate Responsive Design Testing Tool for Modern Web Development**
 
-[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-blue.svg?style=for-the-badge)](<[https://devicepreview.dev](https://device-preview.vercel.app/)>)
+[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-blue.svg?style=for-the-badge)](https://device-preview.vercel.app/)
 [![GitHub](https://img.shields.io/badge/⭐-Star%20on%20GitHub-yellow.svg?style=for-the-badge)](https://github.com/onlyVishesh/DevicePreview)
 
 </div>
@@ -35,7 +35,8 @@ Built with modern web technologies including React 18, Redux Toolkit, and Vite, 
 
 Watch the demo video to see SnapStyle in action:
 
-https://github.com/user-attachments/assets/ad22c213-1a70-4802-9454-4dbb928d9e98
+https://github.com/user-attachments/assets/269474d5-17d6-4876-ad2e-6c8a4bc96983
+
 
 ## Key Benefits & Use Cases
 
