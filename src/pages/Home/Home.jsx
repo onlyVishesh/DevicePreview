@@ -165,6 +165,20 @@ const Home = ({
     addToBookmarks(bookmarkData.url, bookmarkData.title);
   };
 
+  const resetScreens = () => {
+    setScreens(DefaultScreens.map((screen) => ({ ...screen, checked: false })));
+    localStorage.removeItem("selectedScreens");
+    localStorage.removeItem("customScreens");
+  };
+
+  const selectAllScreens = () => {
+    const updatedScreens = screensValues.map((screen) => ({
+      ...screen,
+      checked: true,
+    }));
+    setScreens(updatedScreens);
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
       {/* Modern Sidebar */}
@@ -224,11 +238,32 @@ const Home = ({
           <Button
             type="dashed"
             icon={<PlusOutlined />}
-            className="w-full mb-6 h-12 border-2 border-dashed border-blue-300 text-blue-600 hover:border-blue-500 hover:text-blue-700"
+            className="w-full mb-4 h-12 border-2 border-dashed border-blue-300 text-blue-600 hover:border-blue-500 hover:text-blue-700"
             onClick={handleAddCustomScreen}
           >
             Add Custom Device
           </Button>
+
+          {/* Select All and Reset buttons */}
+          <div className="mb-6 space-y-2">
+            <Button
+              type="primary"
+              className="w-full h-10 bg-blue-600 hover:bg-blue-700 border-0 rounded-lg font-medium"
+              onClick={selectAllScreens}
+              disabled={screensValues.every((screen) => screen.checked)}
+            >
+              Select All Devices ({screensValues.length})
+            </Button>
+            <Button
+              type="default"
+              danger
+              className="w-full h-10 border-red-300 text-red-600 hover:bg-red-50 hover:border-red-400 rounded-lg font-medium"
+              onClick={resetScreens}
+              disabled={!screensValues.some((screen) => screen.checked)}
+            >
+              Reset All Selections
+            </Button>
+          </div>
 
           <div className="mb-4">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">
@@ -349,7 +384,7 @@ const Home = ({
               ref={cardsRef}
               className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
             >
-              {filteredScreens.slice(0, 12).map((screen, index) => {
+              {filteredScreens.slice(0, 12).map((screen) => {
                 const { category, color } = getDeviceCategory(
                   screen.deviceName
                 );
@@ -396,6 +431,27 @@ const Home = ({
             </div>
 
             <div className="text-center py-12">
+              <div className="flex flex-col sm:flex-row gap-4 items-center justify-center mb-6">
+                <Button
+                  type="primary"
+                  size="large"
+                  className="bg-blue-600 hover:bg-blue-700 border-0 rounded-xl px-8 h-12 font-semibold shadow-lg"
+                  onClick={selectAllScreens}
+                  disabled={screensValues.every((screen) => screen.checked)}
+                >
+                  Select All Devices ({screensValues.length})
+                </Button>
+                <Button
+                  size="large"
+                  danger
+                  className="border-red-300 text-red-600 hover:bg-red-50 hover:border-red-400 rounded-xl px-8 h-12 font-semibold shadow-lg"
+                  onClick={resetScreens}
+                  disabled={!screensValues.some((screen) => screen.checked)}
+                >
+                  Reset Selections
+                </Button>
+              </div>
+
               <Button
                 size="large"
                 onClick={() => setShowSidebar(true)}
